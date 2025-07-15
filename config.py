@@ -22,7 +22,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dark_x_knight_musiczz_support")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+095AOnkZH4MzNTU1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+TRbnqt8W82U4MTU1")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
