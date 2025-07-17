@@ -11,7 +11,7 @@ API_HASH = getenv("API_HASH", "c5c11856866072c7b12a4e32e6a0a0f9")
 BOT_TOKEN = getenv("BOT_TOKEN", "8063486217:AAHST_XwijXhNnKQMxUj0jf5jokOepcezss")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://knight4563:knight4563@cluster0.a5br0se.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1000000))
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002507632106"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002898967884"))
 OWNER_ID = int(getenv("OWNER_ID", "6514377146"))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
