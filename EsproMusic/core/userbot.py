@@ -16,7 +16,7 @@ class Userbot:
             config.STRING2,
             config.STRING3,
             config.STRING4,
-            config.STRING5,
+            config.STRING5, 
         ]
 
         for i, session in enumerate(strings, start=1):
