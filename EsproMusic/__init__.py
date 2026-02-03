@@ -1,4 +1,4 @@
-from EsproMusic.core.bot import Loy
+from EsproMusic.core.bot import app
 from EsproMusic.core.dir import dirr
 from EsproMusic.core.git import git
 from EsproMusic.core.userbot import Userbot
@@ -6,14 +6,14 @@ from EsproMusic.misc import dbb, heroku
 
 from .logging import LOGGER
 
+# run setup
 dirr()
 git()
 dbb()
 heroku()
 
-app = Loy()
+# userbot instance
 userbot = Userbot()
-
 
 from .platforms import *
 
